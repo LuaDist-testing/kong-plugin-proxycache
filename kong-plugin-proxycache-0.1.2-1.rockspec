@@ -1,21 +1,21 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "kong-plugin-proxycache"
-version = "0.1.1-1"
+version = "0.1.2-1"
 
 local pluginName = package:match("^kong%-plugin%-(.+)$")  -- "proxycache"
 
 supported_platforms = {"linux", "macosx"}
 -- LuaDist source
 source = {
-  tag = "0.1.1-1",
+  tag = "0.1.2-1",
   url = "git://github.com/LuaDist-testing/kong-plugin-proxycache.git"
 }
 -- Original source
 -- source = {
 --   -- these are initially not required to make it work
 --   url = "git://github.com/andy-zhangtao/proxycache",
---   tag = "v0.1.1",
+--   tag = "v0.1.2",
 --   branch="master"
 -- }
 
